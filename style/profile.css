@@ -1,0 +1,44 @@
+:root{
+    --laranja:#FF4500;
+    --preto:#000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*elementos base*/
+body {
+    background: var(--preto);
+    font-family: 'Arial', Times, serif;
+    color: #fff;
+}
+
+header .container {
+   display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--laranja);
+    font-family: 'Arial Black';
+    font-size: 40px;
+}
+
+.perfis{
+    cursor: pointer;
+    margin-top: 20%;
+    margin-left: 30%;
+}
+
+.perfis img{
+    width: 120px;
+    padding-left: 20px;
+    
+}
+
